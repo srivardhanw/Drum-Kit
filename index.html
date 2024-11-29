@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kit</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <h1 id="title">Drum Kit</h1>
+        <div class="pad-container">
+            <div data-key="65" class="pads" id="pad1"><span>KICK</span></div>
+            <div data-key="83" class="pads" id="pad2"><span>SNARE</span></div>
+            <div data-key="68" class="pads" id="pad3"><span>CLOSED HIHAT</span></div>
+            <div data-key="70" class="pads" id="pad4"><span>OPEN HIHAT</span></div>
+            <div data-key="71" class="pads" id="pad5"><span>MID TOM</span></div>
+            <div data-key="72" class="pads" id="pad6"><span>FLOOR TOM</span></div>
+            <div data-key="74" class="pads" id="pad7"><span>RIDE</span></div>
+            <div data-key="75" class="pads" id="pad8"><span>CRASH</span></div>
+            <div data-key="76" class="pads" id="pad9"><span>SPLASH</span></div>
+        </div>
+    </div>
+
+    <audio data-key="65" src="./samples/kick.wav"></audio>
+    <audio data-key="83" src="./samples/snare.wav"></audio>
+    <audio data-key="68" src="./samples/closed_hh.wav"></audio>
+    <audio data-key="70" src="./samples/open_hh.wav"></audio>
+    <audio data-key="71" src="./samples/mid_tom.wav"></audio>
+    <audio data-key="72" src="./samples/floor_tom.wav"></audio>
+    <audio data-key="74" src="./samples/ride.wav"></audio>
+    <audio data-key="75" src="./samples/crash.wav"></audio>
+    <audio data-key="76" src="./samples/splash.wav"></audio>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
